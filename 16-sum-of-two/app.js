@@ -1,0 +1,3 @@
+function sumOfTwo (arr, sum) {
+
+}
