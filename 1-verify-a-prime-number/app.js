@@ -1,4 +1,4 @@
-var testNumber = 20;
+var testNumber = 21;
 
 function isAPrimeNumber (num) {
 	var dividedBy = 2
