@@ -1,6 +1,9 @@
-var cat = 'This is the sentence to be reversed'
+const cat = 'This is the sentence to be reversed';
 
 function reverseWordsInASentence(sentence) {
-	return sentence.split(" ").reverse().join(" ")
+	return sentence
+		.split(' ')
+		.reverse()
+		.join(' ');
 }
-console.log(reverseWordsInASentence(cat))
+console.log(reverseWordsInASentence(cat));
