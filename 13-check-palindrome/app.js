@@ -1,7 +1,10 @@
-var wordTest = 'mom'
+const wordTest = 'potato';
 
-function checkForPalindrome(str) {
-    return str === str.split('').reverse().join('');
-}
+const checkForPalindrome = str =>
+	str ===
+	str
+		.split('')
+		.reverse()
+		.join('');
 
-console.log(checkForPalindrome(wordTest))
+console.log(checkForPalindrome(wordTest));
