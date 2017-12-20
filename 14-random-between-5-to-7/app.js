@@ -1,5 +1,3 @@
-function randomNumberOneToFive () {
-	return 1 + Math.random() * 4;
-}
+const randomNumberOneToFive = () => 1 + Math.random() * 4;
 
-console.log(randomNumberOneToFive())
+console.log(randomNumberOneToFive());
