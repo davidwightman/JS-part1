@@ -1,11 +1,11 @@
-var arrayTest = [1, 2, 3, 5, 6]
+const arrayTest = [1, 2, 3, 5, 6];
 
-function largestSum (arr) {
+function largestSum(arr) {
+	let arrayLength = arr.length;
 
-	arrayLength = arr.length;
-
-	if (arrayLength<2) return null;
-
+	if (arrayLength < 2) {
+		return null;
+	}
 }
 
-console.log(largestSum(arrayTest))
+console.log(largestSum(arrayTest));
