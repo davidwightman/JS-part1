@@ -1,14 +1,14 @@
-var testNumber = 21;
+const testNumber = 21;
 
-function isAPrimeNumber (num) {
-	var dividedBy = 2
+function isAPrimeNumber(num) {
+	let dividedBy = 2;
 	while (num > dividedBy) {
-		if (num % dividedBy == 0){
-			return false
+		if (num % dividedBy == 0) {
+			return false;
 		} else {
-		dividedBy++
+			dividedBy++;
 		}
 	}
-	return true
+	return true;
 }
-console.log(isAPrimeNumber(testNumber))
+console.log(isAPrimeNumber(testNumber));
